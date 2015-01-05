@@ -4,4 +4,10 @@
    <FileRef
       location = "group:CarthageTest/CarthageTest.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Mantle/Mantle.xcodeproj">
+   </FileRef>
 </Workspace>

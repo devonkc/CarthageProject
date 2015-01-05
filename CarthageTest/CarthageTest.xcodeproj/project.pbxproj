@@ -13,6 +13,8 @@
 		00104EF11A5A723B00164391 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00104EF01A5A723B00164391 /* Images.xcassets */; };
 		00104EF41A5A723B00164391 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00104EF21A5A723B00164391 /* LaunchScreen.xib */; };
 		00104F001A5A723B00164391 /* CarthageTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00104EFF1A5A723B00164391 /* CarthageTestTests.swift */; };
+		006A0F3C1A5A74000066343C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A0F3A1A5A74000066343C /* Alamofire.framework */; };
+		006A0F3D1A5A74000066343C /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006A0F3B1A5A74000066343C /* Mantle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		00104EF91A5A723B00164391 /* CarthageTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00104EFE1A5A723B00164391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00104EFF1A5A723B00164391 /* CarthageTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageTestTests.swift; sourceTree = "<group>"; };
+		006A0F3A1A5A74000066343C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Carthage/Checkouts/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		006A0F3B1A5A74000066343C /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Carthage-bpguicoaenrnocgbolnoarnotbxm/Build/Products/Debug/Mantle.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006A0F3C1A5A74000066343C /* Alamofire.framework in Frameworks */,
+				006A0F3D1A5A74000066343C /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +88,7 @@
 				00104EED1A5A723B00164391 /* Main.storyboard */,
 				00104EF01A5A723B00164391 /* Images.xcassets */,
 				00104EF21A5A723B00164391 /* LaunchScreen.xib */,
+				006A0F3E1A5A740C0066343C /* Frameworks */,
 				00104EE71A5A723B00164391 /* Supporting Files */,
 			);
 			path = CarthageTest;
@@ -110,6 +117,15 @@
 				00104EFE1A5A723B00164391 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		006A0F3E1A5A740C0066343C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				006A0F3A1A5A74000066343C /* Alamofire.framework */,
+				006A0F3B1A5A74000066343C /* Mantle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +423,7 @@
 				00104F051A5A723B00164391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00104F061A5A723B00164391 /* Build configuration list for PBXNativeTarget "CarthageTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				00104F081A5A723B00164391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
